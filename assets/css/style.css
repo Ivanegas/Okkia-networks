@@ -533,7 +533,7 @@ h6 {
   }
 
   #new-cobertura{
-    display: block;;
+    display: block;
   }
 
   #new-coberturaContenido{
@@ -2131,10 +2131,38 @@ a {
 
   .perso-clients h2{
     margin-left: 0px;
-
   }
-}
 
+  .perso-title h2{
+    margin-left: 0px;
+  }
+
+  .hr-sobrenosotros{
+    margin-left: 18px;
+  }
+
+  #hero{
+    display: none;
+  }
+
+  #new-cobertura{
+    display: block;
+  }
+
+  .hr-cobertura{
+    border: none;
+    border-bottom: 2px solid #5ccb83;
+    opacity: 50;
+    margin-left: 176px;
+    width: 50%;
+  }
+
+  #new-coberturaContenido{
+    text-align: justify;
+    word-spacing: 4px;
+  }
+
+}
 
 
 /*FIN*/
