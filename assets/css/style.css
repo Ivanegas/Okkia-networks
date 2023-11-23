@@ -1127,6 +1127,22 @@ html {
   margin-top: 25px;
 }
 
+@media(max-width: 668px){
+  .featured .icon-box{
+    padding: 20px 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 45px;
+    background: #0A1B2B;
+    transition: all ease-in-out 0.3s;
+    height: 380px;
+    color: #fff;
+    margin-left: 24px;
+    width: 323px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+  }
+}
+
 .featured .icon-box i {
   color: #5ccb83;
   font-size: 42px;
