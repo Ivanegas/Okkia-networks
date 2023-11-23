@@ -1944,7 +1944,8 @@ a {
     margin-left: 13px;
     margin-right: 0;
     /* Centra la carta en dispositivos móviles */
-    width: 100%;
+    /* width: 100%; */
+    width: 21rem;
     margin-top: -280px;
   }
 }
