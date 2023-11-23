@@ -1945,7 +1945,7 @@ a {
     margin-right: 0;
     /* Centra la carta en dispositivos móviles */
     /* width: 100%; */
-    width: 21rem;
+    width: 21rem !important;
     margin-top: -280px;
   }
 }
