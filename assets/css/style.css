@@ -822,7 +822,7 @@ html {
     padding-bottom: 20px;
     display: inline-block;
     font-family: "DrukTextWide-Bold";
-    margin-left: 0px !important;
+    margin-left: -30px !important;
   }
 
   .hr-contacto{
@@ -841,7 +841,7 @@ html {
 
   .hr-sobrenosotros {
     border: 1px solid #5ccb83 !important;
-    margin-left: 30px !important;
+    margin-left: 3px !important;
     width: 200px !important;
   }
 }
@@ -1339,7 +1339,7 @@ html {
   .clients {
     width: 100%;
 
-    margin-top: 15%;
+    margin-top: 25%;
   }
 }
 
@@ -1944,7 +1944,8 @@ a {
     margin-left: 13px;
     margin-right: 0;
     /* Centra la carta en dispositivos móviles */
-    width: 100%;
+    /* width: 100%; */
+    width: 21rem !important;
     margin-top: -280px;
   }
 }
@@ -2009,6 +2010,7 @@ a {
     margin-right: 0;
     /* Centra la carta en dispositivos móviles */
     margin-top: -150px;
+    width: 21rem !important;
   }
 }
 
