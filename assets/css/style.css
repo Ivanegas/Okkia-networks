@@ -530,9 +530,9 @@ h6 {
 }
 
 @media (max-width: 600px) {
-  #hero {
+ /*  #hero {
     background-color: #0e182c;
-  }
+  } */
 
   #hero .carousel-item {
     width: 100%;
@@ -2061,14 +2061,14 @@ a {
 
 /* Configuracion para tablet */
 
-@media screen and (min-width: 786px) and (max-width : 1023px) {
+@media screen and (min-width: 768px) and (max-width : 1024px) {
 
   .clients {
-    margin-top: 115%;
+    margin-top: 20%;
   }
 
   .hr-clients {
-    margin-left: 145px ;
+    margin-left:  130px ;
   }
 
   .logo {
@@ -2081,6 +2081,15 @@ a {
 
   .img-nosotros {
     margin-top: 175px;
+  }
+
+  .hr-sobrenosotros{
+    width: 200px;
+  }
+
+  .perso-clients h2{
+    margin-left: 0px;
+
   }
 }
 
