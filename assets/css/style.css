@@ -824,6 +824,14 @@ html {
   margin-left: 47px;
 }
 
+.person-title h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  display: inline-block;
+  font-family: "DrukTextWide-Bold";
+  margin-left: 47px;
+}
 .section-title h2::after {
   content: "";
   position: absolute;
@@ -861,8 +869,16 @@ html {
   .img-nosotros {
     margin-left: -50px;
     border-radius: 0% 10% 10% 0%;
-  }
+}
 
+.person-title h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  display: inline-block;
+  font-family: "DrukTextWide-Bold";
+  margin-left: 0px !important;
+}
   .perso-title h2 {
     font-size: 20px;
     font-weight: 600;
@@ -1498,7 +1514,7 @@ a {
   }
   .hr-clients {
     width: 110px !important;
-    margin-left: 138px !important;
+    margin-left: 130px !important;
   }
 }
 
