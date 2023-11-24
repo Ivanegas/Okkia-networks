@@ -16,6 +16,11 @@
 }
 
 @font-face {
+  font-family: 'GalanoGrotestqueBold';
+  src: url('../font/GalanoGrotesqueBold.otf');
+}
+
+@font-face {
   font-family: 'DrukTextWide-Bold';
   src: url('../font/DrukTextWide-Bold.otf') format(opentype);
 }
@@ -128,6 +133,7 @@ h4 strong{
 .navbar-default.navbar-trans .nav-link,
 .navbar-default.navbar-reduce .nav-link {
   font-size: 1.1rem;
+  font-family: "GalanoGrotesque" ;
   color: #000000;
   font-weight: 600;
   letter-spacing: 0.03em;
@@ -180,6 +186,7 @@ h4 strong{
 
 .navbar-default.navbar-trans .nav-link:hover {
   color: #000000;
+  font-family: "GalanoGrotestqueBold" ;
 }
 
 .navbar-default.navbar-trans .show>.nav-link,
@@ -369,7 +376,14 @@ h4 strong{
 }
 
 .p-contacto {
+  font-family: "GalanoGrotesque";
   margin-bottom: 0em;
+}
+
+.telefonoclass,
+.telefonoclass3{
+
+  font-family: "GalanoGrotesque";
 }
 
 .hr-contacto {
@@ -474,6 +488,7 @@ h4 strong{
 } */
 
 .banner .info p {
+  font-family: "GalanoGrotesque" ;
   color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
 }
@@ -627,6 +642,7 @@ h4 strong{
 
 #hero .carousel-content .contenido {
   text-align: justify;
+  font-family: "GalanoGrotesque" ;
   color: #fff;
   width: 58%;
   border: 1px;
@@ -1907,6 +1923,7 @@ a {
   line-height: 19px;
   display: inline-block;
   color: white;
+  font-family: "'DrukTextWide-Bold";
 }
 
 .h1 {
@@ -2010,6 +2027,7 @@ a {
   color: white;
   text-align: justify;
   font-size: 12px;
+  font-family: "GalanoGrotesque";
 }
 
 .move-right {
@@ -2201,6 +2219,5 @@ a {
   }
 
 }
-
 
 /*FIN*/
