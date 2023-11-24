@@ -78,7 +78,7 @@ h6 {
 }
 
 h4 strong{
-  font-family:"GalanoGrotesque";
+  font-family:"DrukTextWide-Bold";
 }
 
 /*--------------------------------------------------------------
@@ -532,6 +532,10 @@ h4 strong{
 
 @media(max-width:668px){
 
+  .row-services{
+    margin-top: -65px;
+  }
+
   .hero2{
     display: none;
   }
@@ -866,7 +870,7 @@ html {
     padding-bottom: 20px;
     display: inline-block;
     font-family: "DrukTextWide-Bold";
-    margin-left: -1px !important;
+    margin-left: -28px !important;
   }
 
   .hr-contacto{
@@ -885,7 +889,7 @@ html {
 
   .hr-sobrenosotros {
     border: 1px solid #5ccb83 !important;
-    margin-left: 3px !important;
+    margin-left: 4px !important;
     width: 200px !important;
   }
 }
@@ -2117,13 +2121,7 @@ a {
   }
 }
 
-/* Flex para el nuevo hero */
-.flex-container__hero {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  gap: 10%;
-}
+
 
 /* Configuracion para tablet */
 
