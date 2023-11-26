@@ -82,8 +82,8 @@ h6 {
   opacity: 1;
 }
 
-h4 strong{
-  font-family:"GalanoGrotestqueBold";
+h4 strong {
+  font-family: "GalanoGrotestqueBold";
 }
 
 /*--------------------------------------------------------------
@@ -133,7 +133,7 @@ h4 strong{
 .navbar-default.navbar-trans .nav-link,
 .navbar-default.navbar-reduce .nav-link {
   font-size: 1.1rem;
-  font-family: "GalanoGrotesque" ;
+  font-family: "GalanoGrotesque";
   color: #000000;
   font-weight: 600;
   letter-spacing: 0.03em;
@@ -186,7 +186,7 @@ h4 strong{
 
 .navbar-default.navbar-trans .nav-link:hover {
   color: #000000;
-  font-family: "GalanoGrotestqueBold" ;
+  font-family: "GalanoGrotestqueBold";
 }
 
 .navbar-default.navbar-trans .show>.nav-link,
@@ -381,7 +381,7 @@ h4 strong{
 }
 
 .telefonoclass,
-.telefonoclass3{
+.telefonoclass3 {
 
   font-family: "GalanoGrotesque";
 }
@@ -488,13 +488,13 @@ h4 strong{
 } */
 
 .banner .info p {
-  font-family: "GalanoGrotesque" ;
+  font-family: "GalanoGrotesque";
   color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
 }
 
-.btn-contacto{
-  font-family: "GalanoGrotesque" ;
+.btn-contacto {
+  font-family: "GalanoGrotesque";
 }
 
 .banner .info .btn-get-started {
@@ -506,7 +506,7 @@ h4 strong{
   padding: 12px 40px;
   border-radius: 50px;
   transition: 0.5s;
-  font-family: "GalanoGrotesque" ;
+  font-family: "GalanoGrotesque";
   margin: 10px;
   color: #fff;
   border: 2px solid #5CCB83;
@@ -538,42 +538,42 @@ h4 strong{
   /*background-color: blue;*/
 }
 
-#cober{
+#cober {
   font-family: "DrukTextWide-Bold";
 }
 
-#new-cobertura{
+#new-cobertura {
   display: none;
 }
 
-.row-services{
+.row-services {
   margin-top: 51px;
 }
 
-@media(max-width:668px){
+@media(max-width:668px) {
 
-  .row-services{
+  .row-services {
     margin-top: -65px;
   }
 
-  .hero2{
+  .hero2 {
     display: none;
   }
 
-  #new-cobertura{
+  #new-cobertura {
     display: block;
   }
 
-  #new-coberturaContenido{
+  #new-coberturaContenido {
     font-family: "GalanoGrotesque" !important;
-      position: relative;
-      text-align:inherit;
-      float: center;
-      word-spacing: 1px;
-      width: 100%;
+    position: relative;
+    text-align: inherit;
+    float: center;
+    word-spacing: 1px;
+    width: 100%;
   }
 
-  .hr-cobertura{
+  .hr-cobertura {
     border: 2px solid #5ccb83 !important;
     margin-top: -7px;
     margin-left: 85px !important;
@@ -647,12 +647,12 @@ h4 strong{
 
 #hero .carousel-content .contenido {
   text-align: justify;
-  font-family: "GalanoGrotesque" ;
+  font-family: "GalanoGrotesque";
   color: #fff;
   width: 58%;
   border: 1px;
   position: relative;
-  bottom: -10px;
+  bottom: -55px;
   float: right;
   padding-left: 10%;
 }
@@ -859,6 +859,7 @@ html {
   font-family: "DrukTextWide-Bold";
   margin-left: 47px;
 }
+
 .section-title h2::after {
   content: "";
   position: absolute;
@@ -896,16 +897,17 @@ html {
   .img-nosotros {
     margin-left: -50px;
     border-radius: 0% 10% 10% 0%;
-}
+  }
 
-.person-title h2 {
-  font-size: 20px;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  display: inline-block;
-  font-family: "DrukTextWide-Bold";
-  margin-left: 0px !important;
-}
+  .person-title h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    font-family: "DrukTextWide-Bold";
+    margin-left: 0px !important;
+  }
+
   .perso-title h2 {
     font-size: 20px;
     font-weight: 600;
@@ -916,7 +918,7 @@ html {
     margin-left: -28px !important;
   }
 
-  .hr-contacto{
+  .hr-contacto {
     width: 136px;
     margin-left: 3px;
     border: none;
@@ -951,16 +953,17 @@ html {
     transition: all ease-in-out 0.3s;
     height: 330px !important;
   }
-  .services .section-title h2{
+
+  .services .section-title h2 {
     font-size: 20px !important;
-  font-weight: 600;
-  margin-bottom: 80px;
-  padding-bottom: 20px;
-  position: relative !important;
-  font-family: "DrukTextWide-Bold";
+    font-weight: 600;
+    margin-bottom: 80px;
+    padding-bottom: 20px;
+    position: relative !important;
+    font-family: "DrukTextWide-Bold";
   }
 
-  .section-title h2::after{
+  .section-title h2::after {
     left: 33% !important;
     width: 35% !important;
   }
@@ -986,7 +989,7 @@ html {
     left: 31%;
   }
 
-  .featured .section-title h2{
+  .featured .section-title h2 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -1160,7 +1163,7 @@ html {
   position: relative;
   z-index: 2;
   width: 100%;
- 
+
 }
 
 
@@ -1178,8 +1181,8 @@ html {
   margin-top: 25px;
 }
 
-@media(max-width: 668px){
-  .featured .icon-box{
+@media(max-width: 668px) {
+  .featured .icon-box {
     padding: 20px 30px;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
     border-radius: 45px;
@@ -1200,12 +1203,12 @@ html {
   margin-bottom: 15px;
   display: block;
   line-height: 0;
-  
+
 }
 
 .featured .section-title h2 {
- /* margin-top: 25px;*/
- padding-top: 30px;
+  /* margin-top: 25px;*/
+  padding-top: 30px;
 
 }
 
@@ -1230,7 +1233,7 @@ html {
   margin-bottom: 0;
   font-family: "GalanoGrotesque";
   text-align: center;
-    
+
 }
 
 
@@ -1534,11 +1537,12 @@ a {
   margin-left: 47px;
 }
 
-@media(max-width: 668px){
-  .perso-clients h2{
+@media(max-width: 668px) {
+  .perso-clients h2 {
     font-size: 20px !important;
     margin-left: 5px !important;
   }
+
   .hr-clients {
     width: 110px !important;
     margin-left: 130px !important;
@@ -1947,7 +1951,7 @@ a {
 
 .support .content h2 {
   font-weight: 400;
-  font-family: "GalanoGrotesque" ;
+  font-family: "GalanoGrotesque";
   color: white;
 }
 
@@ -2182,7 +2186,7 @@ a {
   }
 
   .hr-clients {
-    margin-left:  130px ;
+    margin-left: 130px;
   }
 
   .logo {
@@ -2197,31 +2201,31 @@ a {
     margin-top: 175px;
   }
 
-  .hr-sobrenosotros{
+  .hr-sobrenosotros {
     width: 200px;
   }
 
-  .perso-clients h2{
+  .perso-clients h2 {
     margin-left: 0px;
   }
 
-  .perso-title h2{
+  .perso-title h2 {
     margin-left: 0px;
   }
 
-  .hr-sobrenosotros{
+  .hr-sobrenosotros {
     margin-left: 18px;
   }
 
-  #hero{
+  #hero {
     display: none;
   }
 
-  #new-cobertura{
+  #new-cobertura {
     display: block;
   }
 
-  .hr-cobertura{
+  .hr-cobertura {
     border: none;
     border-bottom: 2px solid #5ccb83;
     opacity: 50;
@@ -2229,7 +2233,7 @@ a {
     width: 50%;
   }
 
-  #new-coberturaContenido{
+  #new-coberturaContenido {
     text-align: justify;
     word-spacing: 4px;
   }
