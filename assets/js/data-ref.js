@@ -54,3 +54,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+
+/* === Solucion al enlace de las redes sociales === */
+const sendSocialMedia = (url) =>{
+  window.open(url, 'blank');
+}
