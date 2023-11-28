@@ -568,6 +568,10 @@ h4 strong {
   margin-top: 51px;
 }
 
+#newMedia{
+  display: none;
+}
+
 @media(max-width:668px) {
 
   .row-services {
@@ -575,6 +579,10 @@ h4 strong {
   }
 
   .hero2 {
+    display: none;
+  }
+
+  #social_media{
     display: none;
   }
 
@@ -597,6 +605,21 @@ h4 strong {
     margin-left: 85px !important;
     width: 50%;
     opacity: 50;
+  }
+
+  #newMedia{
+    display: inline-block;
+  }
+
+  .flex-container__media{
+    display: flex !important;
+    justify-content: center;
+    gap: 75px;
+    margin-bottom: 10%;
+  }
+
+  .flex-container__media img{
+    width: 50px;
   }
 }
 
@@ -1469,7 +1492,6 @@ html {
 @media (max-width : 600px) {
   .clients {
     width: 100%;
-
     margin-top: 50%;
   }
 }
@@ -1747,7 +1769,6 @@ a {
 
 
 .input-group a img {
-
   width: 75px;
   padding: 15px;
 
@@ -2025,7 +2046,7 @@ a {
   color: var(--primary-color);
 }
 
-/* ESTILO DE LAS CARTASSSSSSS*/
+/* ESTILO DE LAS CARTAS*/
 
 .img-okkia {
   width: 320px;
