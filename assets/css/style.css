@@ -621,6 +621,14 @@ h4 strong {
   .flex-container__media img{
     width: 50px;
   }
+  
+  #services-title{
+    color: #000000;
+    margin-top: 50px;
+    font-size: 28px;
+    position: relative;
+    font-family: "DrukTextWide-Bold";
+  }
 }
 
 #hero .carousel-item {
