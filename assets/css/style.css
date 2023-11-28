@@ -572,6 +572,9 @@ h4 strong {
   display: none;
 }
 
+strong {
+  font-family: 'GalanoGrotestqueBold';
+}
 @media(max-width:668px) {
 
   .row-services {
