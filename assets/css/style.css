@@ -1946,7 +1946,6 @@ a {
 }
 
 @media (max-width: 668px) {
-
   .sobre_nosotros .section-title h2 {
     margin-left: 25px;
     top: 25px;
@@ -2089,6 +2088,15 @@ a {
     width: 110px !important;
     margin-left: 130px !important;
   }
+    .title-banner {
+      color: white;
+      text-transform: uppercase;
+      font-size: 28px;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+      display: block;
+      font-family: "DrukTextWide-Bold";
+    }
 }
 
 /*media query para move-end*/
