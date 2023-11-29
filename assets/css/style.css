@@ -954,6 +954,8 @@ html {
   color: white;
   margin-top: 5px;
   font-family: 'GalanoGrotesque';
+  text-transform: uppercase;
+  font-size: 18px;
   margin-right: 25px;
 }
 
