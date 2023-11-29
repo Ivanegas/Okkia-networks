@@ -928,6 +928,35 @@ html {
   left: calc(50% - 25px);
 }
 
+.flex-container__subnavbar{
+  display: flex;
+  justify-content: end;
+  background-color: #5CCB83 ;
+  width: 100%;
+  text-align: end;
+  margin-top: -13px;
+  height: 40px;
+  gap: 50px;
+  /* position: fixed; */
+}
+
+#subnavbar{
+  margin-bottom: -40px;
+  height: 10px;
+  position:fixed;
+  top:118px;
+  right:0;
+  left:0;
+  z-index:1030;
+}
+
+.flex-container__subnavbar a{
+  color: white;
+  margin-top: 5px;
+  font-family: 'GalanoGrotesque';
+  margin-right: 25px;
+}
+
 /*Dividers*/
 
 
