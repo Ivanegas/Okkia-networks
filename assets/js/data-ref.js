@@ -55,6 +55,24 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+/* Funcion para quitar el id del menu de Master y Retail */
+document.addEventListener("DOMContentLoaded", function(){
+  let links = document.querySelector("section div a");
+  links.forEach(function(link){
+    link.addEventListener("click", function(event){
+      event.preventDefault();
+
+      let targetRef = link.getAttribute("data-ref");
+
+      let targetSection = document.getElementById(targetRef);
+
+      targetSection.scrollIntoView({
+        behavior: "smooth",
+      });
+    });
+  });
+});
+
 
 /* === Solucion al enlace de las redes sociales === */
 const sendSocialMedia = (url) =>{
