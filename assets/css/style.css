@@ -434,8 +434,8 @@ h4 strong {
   color: white;
   text-transform: uppercase;
   font-size: 28px;
-  margin-bottom: 10px;
-  padding-bottom: 5px;
+  margin-top: 10px;
+  padding-bottom: 0px;
   display: block ruby;
   font-family: "DrukTextWide-Bold";
 }
@@ -513,7 +513,7 @@ h4 strong {
 .banner .info p {
   font-family: "GalanoGrotesque";
   color: rgba(255, 255, 255, 0.8);
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .btn-contacto {
@@ -927,7 +927,7 @@ html {
   text-align: right;
   font-size: 50px;
   padding-right: 10%;
-  padding-top: 0%;
+  padding-top: 4%;
 }
 
 #retail p{
@@ -2195,7 +2195,7 @@ a {
       font-family: "DrukTextWide-Bold";
       text-align: center;
       font-size: 50px;
-      padding-top: 10%;
+      padding-top: 4%;
       padding-right: 0%;
     }
 
