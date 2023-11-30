@@ -248,8 +248,9 @@ h4 strong {
 }
 
 .flex-container__subnavbar a:hover{
-  border-bottom: 1px solid white !important;
+  border-bottom: 1px solid white ;
   margin-bottom: 10px;
+  font-family: 'GalanoGrotestqueBold';
 }
 
 @media (min-width: 768px) {
