@@ -148,6 +148,8 @@ h4 strong {
   padding-right: 0;
 }
 
+
+
 .navbar-default.navbar-trans .nav-link:before,
 .navbar-default.navbar-reduce .nav-link:before {
   content: "";
@@ -243,6 +245,11 @@ h4 strong {
   margin: 0;
   border-radius: 0;
   padding: 12px 0;
+}
+
+.flex-container__subnavbar a:hover{
+  border-bottom: 1px solid white !important;
+  margin-bottom: 10px;
 }
 
 @media (min-width: 768px) {
