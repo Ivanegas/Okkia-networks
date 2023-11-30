@@ -2181,6 +2181,31 @@ a {
       display: block;
       font-family: "DrukTextWide-Bold";
     }
+
+    #master p{
+      color: #000000;
+      font-family: "GalanoGrotesque";
+      text-align: center;
+      padding: 0% 10% 4% 10%;
+      font-size: 20px;
+    }
+
+    #retail h1{
+      color: #000000;
+      font-family: "DrukTextWide-Bold";
+      text-align: center;
+      font-size: 50px;
+      padding-top: 10%;
+      padding-right: 0%;
+    }
+
+    #retail p{
+      color: #000000;
+      font-family: "GalanoGrotesque";
+      text-align: center;
+      padding: 0% 10% 4% 10%;
+      font-size: 20px;
+    }
 }
 
 /*media query para move-end*/
