@@ -2373,6 +2373,42 @@ a {
     word-spacing: 4px;
   }
 
+  #subnavbar{
+    display: none;
+  }
+
+  .subNavBarItem{
+    display: block;
+    padding-left: 15px !important;
+  }
+
+  #services-title{
+    padding-top: 60px;
+  }
+
+  #social_media{
+    display: none;
+  }
+
+  #newMedia{
+    display: block;
+  }
+
+  .flex-container__media{
+    display: flex !important;
+    justify-content: center;
+    gap: 75px;
+    margin-bottom: 10%;
+  }
+
+   .flex-container__media img{
+    width: 60px;
+  }
+
+  .contact h2{
+    margin-top: 20px;
+  }
+
 }
 
 
