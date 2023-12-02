@@ -565,7 +565,7 @@ h4 strong {
 }
 
 #services{
-  margin-top: -90px;
+  margin-top: 60px;
 }
 
 #cober {
@@ -726,7 +726,11 @@ strong {
   padding-left: 10%;
 }
 
-
+#hero .carousel-content .contenido li{
+  color: red;
+  width: 50%;
+  margin-left: 100px
+}
 
 
 #hero h2 {
@@ -1986,6 +1990,27 @@ a {
 .about .icon-boxes .col-md-6:nth-child(4) .icon-box {
   margin-top: -40px;
 }
+
+.flex-container__cobertura{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+  background-color: #0A1B2B;
+  margin-top: -165px;
+  color: white;
+      font-family: "GalanoGrotesque";
+}
+
+.flex-item {
+      width: 30%;
+      margin-bottom: 20px;
+      
+}
+
+.flex-item span{
+  font-family: 'GalanoGrotestqueBold';
+}
+
 /* Cuando la pantalla es menor a 600px  (tablets y teléfonos inteligentes)*/
 @media (max-width : 600px) {
 
