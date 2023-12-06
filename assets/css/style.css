@@ -1328,7 +1328,12 @@ html {
 .about .contenido p {
   text-align: justify;
   margin-bottom: 20px;
-  margin-top: 5px;
+  margin-top: 5px;;
+}
+
+.final{
+  color: #fff;
+  font-family: "GalanoGrotesque";
 }
 
 .aspectos{
@@ -1343,6 +1348,12 @@ html {
 
 .aspectos .icon-box{
   padding-bottom: 15px;
+}
+
+.aspectos p{
+  color: #fff;
+  font-family: "GalanoGrotesque";
+  width: 50%;
 }
 
 .title{
@@ -2299,6 +2310,10 @@ a {
     .flex-container__cobertura{
       margin-top: -168px;
     }
+
+    .about{
+      display: none;
+    }
 }
 
 /*media query para move-end*/
@@ -2318,6 +2333,9 @@ a {
     margin-top: -150px;
     width: 21rem !important;
   }
+  .about{
+      display: none;
+    }
 }
 
 
@@ -2364,6 +2382,9 @@ a {
     font-family: "GalanoGrotesque";
     width: 100%;
   }
+  .about{
+      display: none;
+    }
 }
 /* Estilos para tablets y dispositivos más grandes */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2387,6 +2408,9 @@ a {
   .about .icon-boxes .col-md-6:nth-child(4) .icon-box {
     margin-top: 0;
   }
+  .about{
+      display: none;
+    }
 }
 
 @media (max-width: 991px) {
@@ -2501,6 +2525,10 @@ a {
   .featured .icon-box{
     margin-left: 27%;
   }
+
+  .about{
+      display: none;
+    }
   
 }
 
