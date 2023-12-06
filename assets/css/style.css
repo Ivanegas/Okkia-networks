@@ -1284,16 +1284,72 @@ html {
 # About
 --------------------------------------------------------------*/
 .about {
-  width: 100%;
-  background-color: red;
-}
+    background-image: url(../img/COBERTURA_recortar.png);
+      background-size: 100% 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      overflow: hidden;
+    }
+    
+    #about .row .section-title h2 {
+      color: #fff;
+      font-size: 28px;
+      position: absolute;
+      right: 12%;
+      margin-top: 5%;
+      font-family: "DrukTextWide-Bold";
+    }
+    
+    #about .row .section-title h2::after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 75%;
+      height: 3px;
+      background: #5ccb83;
+      bottom: 15px;
+      left: 25%;
+    }
 
-.about .content p {
+    #about .row .contenido{
+      text-align: justify;
+      color: #fff;
+      font-family: "GalanoGrotesque";
+      width: 50%;
+      border: 1px;
+      position: relative;
+      bottom: -100px;
+      /* float: right; */
+      padding-left: 10%;
+      padding-right: 10%;
+      margin-left: 50%;
+    }
+
+.about .contenido p {
   text-align: justify;
   margin-bottom: 20px;
   margin-top: 5px;
-
 }
+
+.aspectos{
+  margin-left: 55%;
+}
+
+.aspectos li{
+  font-family: "GalanoGrotesque";
+  width: 80%;
+  color: #fff;
+}
+
+.aspectos .icon-box{
+  padding-bottom: 15px;
+}
+
+.title{
+  font-family: 'GalanoGrotestqueBold';
+  color: #fff;
+}
+
 
 /*--------------------------------------------------------------
   # Sobre Nosotros
@@ -2448,5 +2504,12 @@ a {
   
 }
 
+@media screen and (max-width: 1024px) and (min-width : 768px) {
+  .img-okkia {
+    width: 270px;
+    height: 430px;
+    margin-top: 90px;
+  }
+}
 
 /*FIN*/
