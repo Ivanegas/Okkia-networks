@@ -2430,11 +2430,11 @@ a {
 @media screen and (min-width: 768px) and (max-width : 1024px) {
 
   .clients {
-    margin-top: 20%;
+    margin-top: 0%;
   }
 
   .hr-clients {
-    margin-left: 130px;
+    margin-left: 108px;
   }
 
   .logo {
@@ -2446,7 +2446,11 @@ a {
   }
 
   .img-nosotros {
-    margin-top: 175px;
+    margin-top: 130%;
+  }
+
+  .nosotros_text{
+    text-align: left;
   }
 
   .hr-sobrenosotros {
@@ -2482,7 +2486,7 @@ a {
   }
 
   #new-coberturaContenido {
-    text-align: justify;
+    text-align: center;
     word-spacing: 4px;
   }
 
@@ -2529,6 +2533,26 @@ a {
   .about{
       display: none;
     }
+
+  .img-okkia{
+    display: none;
+  }
+
+  .sub-title::after{
+    content: "";
+      position: absolute;
+      display: block;
+      width: 18%;
+      height: 3px;
+      background: #5ccb83;
+      /* bottom: 15px; */
+      left: 2%;
+      top: 100%;
+  }
+
+  .footer-tablet{
+    width: 102.33%;
+  }
   
 }
 
